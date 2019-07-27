@@ -38,7 +38,7 @@ If on Arch Linux make sure to install base-devel.
 ```
 sudo pacman -S base-devel
 ```
-# Instalation steps
+## Instalation steps
 ```
 git clone https://github.com/BeanGreen247/st
 cd st
