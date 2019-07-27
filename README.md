@@ -30,7 +30,15 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 + updated to latest version 0.8.2
 
 ## Installation for newbs
-
+Make sure to install these packages if you are on Ubuntu.
+```
+sudo apt-get install libx11-dev libxext-dev libxft-dev fonts-inconsolata
+```
+If on Arch Linux make sure to install base-devel.
+```
+sudo pacman -S base-devel
+```
+# Instalation steps
 ```
 git clone https://github.com/BeanGreen247/st
 cd st
