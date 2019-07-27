@@ -43,7 +43,7 @@ sudo pacman -S base-devel
 git clone https://github.com/BeanGreen247/st
 cd st
 sudo make install
-sudo cp Xresources ~/.Xresources && sudo cp Xdefaults ~/.Xdefaults
+sudo cp Xresources ~/.Xresources && sudo cp Xdefaults ~/.Xdefaults && sudo cp bashrc ~/.bashrc
 sudo xrdb -merge ~/.Xresources
 ```
 
