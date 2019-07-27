@@ -32,7 +32,7 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 ## Installation for newbs
 Make sure to install these packages if you are on Ubuntu.
 ```
-sudo apt-get install libx11-dev libxext-dev libxft-dev fonts-inconsolata
+sudo apt-get install libx11-dev libxext-dev libxft-dev fonts-inconsolata ubuntu-make
 ```
 If on Arch Linux make sure to install base-devel.
 ```
