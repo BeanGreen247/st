@@ -35,6 +35,7 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 git clone https://github.com/BeanGreen247/st
 cd st
 sudo make install
+sudo cp .Xresources ~/.Xresources && sudo cp .Xdefaults ~/.Xdefaults
 ```
 
 Obviously, `make` is required to build. `fontconfig` is required for the default build, since it asks `fontconfig` for your system monospace font.  It might be obvious, but `libX11` and `libXft` are required as well. Chances are, you have all of this installed already.
