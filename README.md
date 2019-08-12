@@ -38,6 +38,10 @@ If on Arch Linux make sure to install base-devel.
 ```
 sudo pacman -S base-devel
 ```
+If on Debian 10 make sure to install these packages
+```
+sudo apt-get install libx11-dev libxext-dev libxft-dev fonts-inconsolata make
+```
 ## Instalation steps
 ```
 git clone https://github.com/BeanGreen247/st
