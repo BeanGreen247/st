@@ -51,7 +51,12 @@ sudo make install
 sudo cp Xresources ~/.Xresources && sudo cp Xdefaults ~/.Xdefaults && sudo cp bashrc ~/.bashrc
 sudo xrdb -merge ~/.Xresources
 ```
-
+## Uninstall steps
+```
+cd st
+sudo make uninstall
+```
+## Some information
 On OpenBSD, be sure to edit `config.mk` first and remove `-lrt` from the `$LIBS` before compiling.
 
 Be sure to have a composite manager (`xcompmgr`, `compton`, etc.) running if you want transparency.
@@ -71,7 +76,7 @@ For example, you can define your desired fonts, transparency or colors:
 
 The `alpha` value (for transparency) goes from `0` (transparent) to `1` (opaque).
 
-### Colors
+## Colors
 
 To be clear about the color settings:
 
