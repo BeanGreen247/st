@@ -1,3 +1,4 @@
+### NOTE: Stopped using st, currently using rxvt. [My rxvt config](https://github.com/BeanGreen247/My-rxvt-config)
 # BeanGreen247's build of st - the simple (suckless) terminal
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional features that make it literally the best terminal emulator ever:
