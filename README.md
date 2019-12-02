@@ -86,4 +86,4 @@ sudo xrdb -merge ~/.Xresources
 
 ## Contact
 All my contacts are on my website
-- [https://beangreen247.github.io/home/](https://beangreen247.github.io/home/)
+- [https://beangreen247.github.io/](https://beangreen247.github.io/)
